@@ -1,0 +1,17 @@
+server:
+  port: 8585
+  #contextPath: /uaa
+logging.file: oauth-server.log
+spring:
+  profiles: default
+  datasource:
+    username: demo
+    password: demo
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/demo?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 3600000
+    validationQuery: SELECT 1
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+

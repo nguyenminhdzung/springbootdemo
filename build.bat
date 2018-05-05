@@ -1,0 +1,1 @@
+mvn -P services clean package
