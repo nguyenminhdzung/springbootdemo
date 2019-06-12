@@ -8,7 +8,7 @@ spring:
     username: demo
     password: demo
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost/demo?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost/demo?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
     testWhileIdle: true
     timeBetweenEvictionRunsMillis: 3600000
     validationQuery: SELECT 1

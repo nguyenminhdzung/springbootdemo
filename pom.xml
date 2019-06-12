@@ -24,19 +24,20 @@
 		</modules>
 	 </profile>
  
-	 <profile>
-		<id>common</id>
-		<modules>
-			<!-- Shared lib -->
-			<module>shared</module>
-		</modules>
-	 </profile>
+	 <!--<profile>-->
+		<!--<id>common</id>-->
+		<!--<modules>-->
+			<!--&lt;!&ndash; Shared lib &ndash;&gt;-->
+			<!--<module>shared</module>-->
+		<!--</modules>-->
+	 <!--</profile>-->
 	</profiles>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <docker.image.prefix>demo</docker.image.prefix>
         <docker.plugin.version>0.4.10</docker.plugin.version>
+	      <mysql.connector.version>8.0.16</mysql.connector.version>
     </properties>
 
     <dependencies>
